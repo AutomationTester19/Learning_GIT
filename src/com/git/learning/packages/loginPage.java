@@ -1,5 +1,7 @@
 package com.git.learning.packages;
 
+import java.util.HashMap;
+
 public class loginPage {
 
 	
@@ -7,5 +9,14 @@ public class loginPage {
 		
 		System.out.println(userName);
 		System.out.println(passWord);
+	}
+	
+	public HashMap<String,String> enterFormDetails(HashMap<String,String> data) {
+		
+		HashMap<String,String> inputData = new HashMap<String,String>();
+		data.put("name", "test");
+		
+		
+		return inputData;
 	}
 }
