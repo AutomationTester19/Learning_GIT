@@ -15,6 +15,7 @@ public class loginPage {
 		HashMap<String, String> inputData = new HashMap<String, String>();
 		data.put("name", "test");
 		data.put("eid", "123");
+		data.put("salary", "10000");
 		return inputData;
 	}
 }
